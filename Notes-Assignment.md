@@ -9,7 +9,6 @@ Build a backend-only application where users can **Create**, **Read**, **Update*
 ## 🧠 What You'll Learn
 
 - REST API principles
-- Express routing and middleware
 - Handling JSON data
 - HTTP methods and status codes
 - File I/O
@@ -18,13 +17,15 @@ Build a backend-only application where users can **Create**, **Read**, **Update*
 
 ## 📌 API Endpoints
 
-| Method | Endpoint     | Description       |
-| ------ | ------------ | ----------------- |
-| GET    | `/notes`     | Get all notes     |
-| GET    | `/notes/:id` | Get a single note |
-| POST   | `/notes`     | Create a new note |
-| PUT    | `/notes/:id` | Update a note     |
-| DELETE | `/notes/:id` | Delete a note     |
+| Method | Endpoint                  | Description       |
+| ------ | ------------------------- | ----------------- |
+| GET    | `/notes`                  | Get all notes     |
+| GET    | `/notes/:id`              | Get a single note |
+| POST   | `/notes`                  | Create a new note |
+| PUT    | `/notes/:id`              | Update a note     |
+| DELETE | `/notes/:id`              | Delete a note     |
+| GET    | `/notes/search?query=abc` | Search a note     |
+
 
 ---
 
@@ -54,6 +55,7 @@ Build a backend-only application where users can **Create**, **Read**, **Update*
    - `POST /notes`
    - `PUT /notes/:id`
    - `DELETE /notes/:id`
+   - `GET /notes/search?query=abc`
 
 4. Save notes to a file:
    - Read/write notes to `notes.json` inside a `data/` folder
