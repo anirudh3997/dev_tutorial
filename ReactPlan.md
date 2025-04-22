@@ -1,4 +1,4 @@
-# React Learning Plan - 2 Weeks (Beginner Friendly)
+# React Learning Plan - 2 Weeks
 
 ## Week 1 – Fundamentals & Core Concepts
 
