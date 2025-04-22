@@ -16,7 +16,9 @@ This repository will serve as the central hub for all our learning projects. As 
 
 As we go through our learning path, we’ll build various real-world inspired projects, such as:
 
-- [Notes Assignment](Notes-Assignment.md)
+- [Notes](Notes.md)
+- [Blogs](Blogs.md)
+- [React Plan](ReactPlan.md)
 - And more to be updated😉!
 
 ## 💡 Goal
